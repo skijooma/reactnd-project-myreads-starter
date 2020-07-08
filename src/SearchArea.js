@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import SearchBookResults from './SearchBookResults';
+import SearchBar from './SearchBar';
 
 class SearchArea extends Component {
 
@@ -6,7 +8,10 @@ class SearchArea extends Component {
 
         return (
 
-            <div></div>
+            <div className = "search-books">
+                <SearchBar />
+                <SearchBookResults />
+            </div>
         )
     }
 }

@@ -6,7 +6,9 @@ class SearchBookResults extends Component {
 
         return (
 
-            <div></div>
+            <div className="search-books-results">
+              <ol className="books-grid"></ol>
+            </div>
         )
     }
 }
