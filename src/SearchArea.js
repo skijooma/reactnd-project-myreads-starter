@@ -4,6 +4,11 @@ import SearchBar from './SearchBar';
 
 class SearchArea extends Component {
 
+    constructor(filterText){
+        super();
+        this.filterText = ''
+    }
+
     render(){
 
         return (

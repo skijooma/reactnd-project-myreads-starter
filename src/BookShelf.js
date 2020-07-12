@@ -11,7 +11,8 @@ class BookShelf extends Component {
                 <div className = "book-shelf-books">
                     <ol className = "books-grid">
                         {
-                            // for each book, list item
+                            // for each book, list item.. 
+                            // this.props.books.map
                         }
                     </ol>
                 </div>
