@@ -4,19 +4,13 @@ class BookShelf extends Component {
 
     render(){
 
+        const shelf = this.props.shelf;
+
         return (
 
-            <div className="list-books-content">
-                <h2 className="bookshelf-title">Currently Reading</h2>
-                <div className = "book-shelf-books">
-                    <ol className = "books-grid">
-                        {
-                            // for each book, list item.. 
-                            // this.props.books.map
-                        }
-                    </ol>
-                </div>
-            </div>
+            <li>
+                <h2 className="bookshelf-title">{ shelf }</h2>
+            </li>
         )
     }
 }

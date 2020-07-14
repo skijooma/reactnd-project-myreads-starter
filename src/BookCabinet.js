@@ -15,8 +15,8 @@ class BookCabinet extends Component {
 
         return (
 
-            <div>
-                <BookShelf books = { }/>
+            <div >
+                
             </div>
         );
     }
